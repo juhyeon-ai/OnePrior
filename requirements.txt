@@ -1,0 +1,6 @@
+torch>=2.0
+numpy
+pillow
+h5py
+scikit-learn
+nystrom-attention

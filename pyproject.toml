@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oneprior"
+version = "0.1.0"
+description = "One attention prior for every pathology patch encoder"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.0", "numpy", "pillow", "h5py", "scikit-learn", "nystrom-attention"]
+
+[tool.setuptools]
+packages = ["mil_models", "anchors", "evaluation"]
